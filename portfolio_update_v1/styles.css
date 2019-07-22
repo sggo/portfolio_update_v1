@@ -70,12 +70,12 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid black;
+  border: 5px solid black;
   transition: all .5s;
 
 }
 header .profile-image:hover {
-  transform: scale(1.1) rotate(5deg);
+      transform: translate3d(8.90208px, -0.359922px, 1px);
 }
 .tag {
   background-color: lightblue;
@@ -126,6 +126,20 @@ ul.skills {
   background: #0399ff;
 }
 
+.skills2 li {
+  border-radius: 6px;
+  display: inline-block;
+  background: #ff9904;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+.skills2 li:nth-child(odd) {
+  background: skyblue;
+}
+
+
 footer {
   width: 100%;
   min-height: 30px;
@@ -146,6 +160,7 @@ footer ul {
 footer ul li {
   display: inline-block;
 }
+
 
 a.social {
   display: inline-block;
